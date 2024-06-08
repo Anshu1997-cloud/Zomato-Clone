@@ -9,7 +9,7 @@ export default function MyOrder() {
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem('userEmail'));
     try {
-      const response = await fetch(`http://localhost:5600/api/myorderData`, {
+      const response = await fetch(`https://zomato-clone-hj2b.onrender.com/api/myorderData`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

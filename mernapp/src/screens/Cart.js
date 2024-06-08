@@ -23,7 +23,7 @@ export default function Cart() {
     }
 
     try {
-      const response = await axios.post(`http://localhost:5600/api/orderData`, {
+      const response = await axios.post(`https://zomato-clone-hj2b.onrender.com/api/orderData`, {
         order_data: data,
         email: userEmail,
         order_date: new Date().toDateString()

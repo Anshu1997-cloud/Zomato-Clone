@@ -14,7 +14,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const response = await fetch(`http://localhost:5600/api/loginuser`, {
+            const response = await fetch(`https://zomato-clone-hj2b.onrender.com/api/loginuser`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
