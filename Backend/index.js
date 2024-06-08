@@ -9,7 +9,7 @@ connectToDatabase()
 
 
 app.use(cors({
-  origin: "http://localhost:3001"
+  origin: "https://zomato-clone-hj2b.onrender.com"
 }));
 // Middleware to parse JSON requests
 app.use(express.json());
